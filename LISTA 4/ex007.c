@@ -1,6 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/*Sendo H = 1 + 1/2 + 1/3 + 1/4 +...+ 1/N, prepare um algoritmo para gerar o número H. O número 
+N é fornecido pelo usuário.*/
+
 int main()
 {
     float H, CONT, N;

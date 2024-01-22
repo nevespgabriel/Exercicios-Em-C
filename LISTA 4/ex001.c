@@ -1,6 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/*Escrever um programa que leia 8 valores inteiro positivo, um de cada vez, e encontre e escreve o 
+maior deles.*/
+
 int main()
 {
     int N, MAIOR, CONT;

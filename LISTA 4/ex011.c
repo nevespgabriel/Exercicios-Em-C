@@ -2,6 +2,8 @@
 #include<stdlib.h>
 #include<math.h>
 
+//Fazer um programa em C para calcular e imprimir todos os números primos entre 1 e 100.
+
 int main()
 {
     int N, CONT, PRIMO;

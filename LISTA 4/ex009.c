@@ -2,6 +2,12 @@
 #include<stdlib.h>
 #include<math.h>
 
+/*Escreva um programa que calcule e apresente a série de fibonacci. A quantidade de termos a 
+serem apresentados devem ser informados pelo usuário. Apresente também a somatória de todos 
+os termos exibidos pela série de fibonacci solicitada.
+Série de Fibonacci = “1, 1, 2, 3, 5, 8, 13, 21, 34, 55”
+*/
+
 int main()
 {
     int QUANT, CONT, ANT, DEP, SOMA;

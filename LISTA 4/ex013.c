@@ -1,6 +1,14 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/*Foi feita uma pesquisa para saber o perfil dos alunos que cursam o ginásio de uma determinada 
+escola. Cada aluno fornecia a sua série (primeira-1, segunda-2, terceira-3 ou quarta-4), quantos 
+livros liam por mês e se gostavam de fazer redação (Sim-1 ou Não-0). Fazer um programa que 
+leia os dados, calcule e imprima:
+1. A quantidade de alunos que está na terceira série;
+2. A maior quantidade de livros lidos por um aluno que está na quarta série;
+3. A porcentagem de alunos que não gostam de fazer redação e que estão na terceira série.*/
+
 int main()
 {
     int SERIE, OPCAO, LIVRO, REDA, TERC, MAIOR;

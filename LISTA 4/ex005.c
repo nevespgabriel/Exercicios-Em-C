@@ -1,6 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/*Escreva um programa que realize o cálculo do fatorial de um número inteiro e positivo informado 
+pelo usuário.*/
+
 int main()
 {
     double N, FAT;
