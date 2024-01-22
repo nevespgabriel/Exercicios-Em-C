@@ -1,6 +1,11 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/*Fazer um programa que calcule e escreva a soma dos 30 primeiros termos da série:
+
+S= 480/10 - 475/11 + 470/12 - 465/13 + ...
+*/
+
 int main()
 {
     float S;

@@ -1,6 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/*Fazer um programa que calcule e escreva a soma dos 50 primeiros termos da seguinte série:
+                           S= 1000/1 – 997/2 + 994/3 -991/4*/
+
 int main()
 {
     float S;

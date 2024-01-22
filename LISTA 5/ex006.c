@@ -2,6 +2,9 @@
 #include<stdlib.h>
 #include<math.h>
 
+/*Fazer um programa que calcule o volume de uma esfera em função do raio R. O raio deverá 
+variar de 0 a 20 cm de 0.5 em 0.5cm.*/
+
 int main()
 {
     float R, V;

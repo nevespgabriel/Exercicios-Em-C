@@ -1,6 +1,13 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/*A conversão de graus Farenheit para centígrados é obtida por
+
+C= 5*(F-32)/9 
+
+Fazer um programa que calcule e escreva uma tabela de centígrados em função de graus Farenheit, 
+que variam de 50 a 150 de 1 em 1.*/
+
 int main()
 {
     int F;

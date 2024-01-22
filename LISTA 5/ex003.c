@@ -2,6 +2,13 @@
 #include<stdlib.h>
 #include<math.h>
 
+/*Fazer um programa que:
+a) leia o valor de X de uma unidade de entrada;
+b)calcule e escreva o valor do seguinte somatório:
+
+X**25 / 1 - X**24 / 2 + X**23 / 3 - X**22 / 4 + ... + X / 25
+*/
+
 int main()
 {
     int X, DEN, POT;

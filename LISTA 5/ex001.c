@@ -1,6 +1,11 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/*Escrever um programa que lê 5 conjuntos de 2 valores, o primeiro representando o número de um 
+aluno e o segundo representando a sua altura em centímetros. Encontrar o aluno mais alto e o 
+mais baixo e escrever seus números, suas alturas e uma mensagem dizendo se é o mais alto ou o 
+mais baixo.*/
+
 int main()
 {
     int CONT, N, MAIOR_N, MENOR_N;
