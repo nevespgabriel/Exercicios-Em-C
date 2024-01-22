@@ -2,6 +2,13 @@
 #include<stdlib.h>
 #include<math.h>
 
+/*Perguntar ao usuário se ele deseja calcular a área de um:
+a. triângulo
+b. circulo
+c. cubo
+d. cilindro
+Solicitar os dados necessários para calcular a área escolhida, e mostrar o resultado na tela.*/
+
 void TRIANGULO(float B, float H)
 {
     printf("Digite a base e a altura em metros:\n");

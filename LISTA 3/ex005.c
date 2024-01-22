@@ -1,6 +1,11 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
+
+/*Desenvolva um programa para fazer a conversão de Real para Dólar e vice e versa. Para isso o 
+usuário deverá informar o valor em uma moeda a cotação e fazer a sua conversão. Apresente o 
+valor convertido.*/
+
 void RTOD(float R, float D, float COT)
 {
     D = R*COT;

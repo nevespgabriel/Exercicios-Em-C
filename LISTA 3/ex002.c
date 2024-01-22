@@ -2,6 +2,10 @@
 #include<stdlib.h>
 #include<math.h>
 
+/*Criar um programa para ler o preço e a categoria de um produto. Calcular o reajuste de acordo 
+com a categoria: se a mesma for A=50%, B=25%, C=15% e outras 5%. Depois mostre o valor 
+antigo, o percentual de reajuste e o valor reajustado.*/
+
 void REAJUSTE(float PORC, float PRECO)
 {
     PRECO += PRECO*PORC;

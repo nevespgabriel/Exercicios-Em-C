@@ -2,6 +2,12 @@
 #include<stdlib.h>
 #include<math.h>
 
+/*Elabore um algoritmo que, apresente um menu, com as seguintes opções:
+a. Calcular a média aritmética
+b. Calcular a média harmônica
+c. Calcular a média geométrica.
+Conforme a opção do usuário realize a operação selecionada.*/
+
 void MEDIA_ARITMETICA(float N1, float N2)
 {
     printf("Media aritmetica entre %.1f e %.1f: %.1f\n",N1,N2,(N1+N2)/2);

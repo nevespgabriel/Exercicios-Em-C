@@ -2,6 +2,10 @@
 #include<stdlib.h>
 #include<math.h>
 
+/*Fazer um programa para ler a primeira letra do estado civil de uma pessoa (S - solteiro, C -
+casado, V- viúvo, D- divorciado, E - desquitado) e mostrar uma mensagem com a descrição. 
+Considere letras maiúsculas e minúsculas. Mostre mensagem de erro, se necessário.*/
+
 int main()
 {
     char ESTADO;

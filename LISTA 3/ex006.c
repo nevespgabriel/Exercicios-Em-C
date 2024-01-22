@@ -2,6 +2,10 @@
 #include<stdlib.h>
 #include<math.h>
 
+/*Construa um programa que seja capaz de concluir qual dentre os seguintes animais foi escolhido 
+através de perguntas e respostas. Animais possíveis: leão, cavalo, homem, macaco avestruz 
+pinguim e pato.*/
+
 int main()
 {
     int OPCAO;
