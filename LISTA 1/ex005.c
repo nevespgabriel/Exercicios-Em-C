@@ -1,12 +1,17 @@
 #include<stdio.h>
 #include<stdlib.h>
+
+//Faça um programa para ler dois valores (x e y), calcular e mostrar x elevado à potência de y
+
 int main()
 {
-    float BASE, ALT, AREA;
-    printf("Digite a base do triangulo\n");
-    scanf("%f", &BASE);
-    printf("Digite a altura do triangulo\t");
-    scanf("%f", &ALT);
-    AREA = (BASE*ALT)/2;
-    printf("Area: %.1f", AREA);
+    int X, Y, POT;
+    printf("Digite o primeiro valor: \n");
+    scanf("%d",&X);
+    printf("Digite o segundo valor: \n");
+    scanf("%d",&Y);
+    POT = pow(X,Y);
+    printf("Valor de %d elevado a %da potencia: %d", X,Y,POT);
+    system("pause");
+    return 0
 }

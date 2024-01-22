@@ -1,20 +1,15 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/*Desenvolva uma aplicação que receba a idade de um indivíduo em dias e mostre-a expressa em anos, 
+meses e dias.*/
+
 int main()
 {
-    float N1, N2, M;
-    int P1, P2;
-    printf("Digite o valor da primeira nota:\n");
-    scanf("%f",&N1);
-    printf("Digite o valor da segunda nota:\n");
-    scanf("%f",&N2);
-    printf("Digite o peso da primeira nota:\n");
-    scanf("%d",&P1);
-    printf("Digite o peso da segunda nota:\n");
-    scanf("%d",&P2);
-    M = (N1*P1+N2*P2)/(P1+P2);
-    printf("A media foi %.1f.\n", M);
+    int DIA;
+    printf("Quantos dias de idade voce tem?\n");
+    scanf("%d",&DIA);
+    printf("Voce tem %d anos, %d meses e %d dias de idade\n",DIA/365,(DIA%365)/30,(DIA%365)%30);
     system("pause");
     return 0;
 }
