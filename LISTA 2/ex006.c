@@ -2,6 +2,8 @@
 #include<stdlib.h>
 #include<math.h>
 
+//Faça um algoritmo que leia 3 valores inteiros (X, Y, Z), determina e escreve o menor deles.
+
 int main()
 {
     int X,Y,Z;

@@ -2,6 +2,18 @@
 #include<stdlib.h>
 #include<math.h>
 
+/*A empresa Xing Ling SA decidiu conceder um aumento de salários a seus funcionários de acordo 
+com a tabela abaixo:
+ Salário Atual     Índice De Aumento
+0,00    – 1000,00         15%
+1000,01 – 1500,00         12%
+1500,01 – 1800,00         10%
+1800,01 - 2000,00         7%
+2000,01 – 2500,00         4%
+acima de 2500,00  Sem aumento
+Escrever um algoritmo que lê, para cada funcionário, o seu número e o seu salário atual e escreve o 
+número do funcionário, seu salário atual, o percentual de seu aumento e o valor do salário corrigido.*/
+
 int main()
 {
     float SAL;

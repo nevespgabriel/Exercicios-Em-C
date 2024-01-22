@@ -2,6 +2,9 @@
 #include<stdlib.h>
 #include<math.h>
 
+/*Faça um programa que leia um número inteiro e mostre uma mensagem indicando se este número 
+é par ou ímpar, e se é positivo ou negativo.*/
+
 int main()
 {
     int N;

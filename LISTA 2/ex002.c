@@ -1,6 +1,13 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/*Faça um algoritmo que leia a idade de uma pessoa e verifique se ela é:
+- Criança: Idade de 1 a 13 anos;
+- Adolescente: Idade maior que 13 anos e menor ou igual a 20 anos;
+- Adulto: Idade maior que 20 e menor ou igual a 50 anos;
+- Idosa: idade maior que 50 anos.
+Exiba em qual grupo a pessoa se enquadra.*/
+
 int main()
 {
     int IDADE;
@@ -8,7 +15,7 @@ int main()
     scanf("%d",&IDADE);
     if(IDADE<0 & IDADE>150)
     {
-        printf("Valor inv�lido!\n");
+        printf("Valor invalido!\n");
     }
     else if(IDADE<=13)
     {

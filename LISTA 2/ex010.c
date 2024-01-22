@@ -2,6 +2,9 @@
 #include<stdlib.h>
 #include<math.h>
 
+/*Leia a hora inicial e a hora final de um jogo. A seguir calcule a duração do jogo, sabendo que o 
+mesmo pode começar em um dia e terminar em outro, tendo uma duração máxima de 24 horas.*/
+
 int main()
 {
     int HI,HF,MI,MF,DH,DM;
